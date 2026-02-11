@@ -28,10 +28,10 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={plan.price ? "#" : "mailto:info@example.com"}
+            href="mailto:support@kaelan-ai.com"
             white={!plan.premium}
           >
-            {plan.price ? "Get started" : "Contact us"}
+            Contact us
           </Button>
 
           <ul>
