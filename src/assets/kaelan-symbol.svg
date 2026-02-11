@@ -1,0 +1,26 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="symbolGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#AC6AFF"/>
+      <stop offset="50%" style="stop-color:#FFC876"/>
+      <stop offset="100%" style="stop-color:#FF776F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- AI Brain Icon -->
+  <g transform="translate(0, 0)">
+    <!-- Outer hexagon -->
+    <path d="M16 2L28 9V23L16 30L4 23V9L16 2Z" stroke="url(#symbolGradient)" stroke-width="2" fill="none"/>
+    <!-- Inner neural network nodes -->
+    <circle cx="16" cy="10" r="2.5" fill="url(#symbolGradient)"/>
+    <circle cx="10" cy="16" r="2.5" fill="url(#symbolGradient)"/>
+    <circle cx="22" cy="16" r="2.5" fill="url(#symbolGradient)"/>
+    <circle cx="16" cy="22" r="2.5" fill="url(#symbolGradient)"/>
+    <!-- Neural connections -->
+    <line x1="16" y1="10" x2="10" y2="16" stroke="url(#symbolGradient)" stroke-width="1.5"/>
+    <line x1="16" y1="10" x2="22" y2="16" stroke="url(#symbolGradient)" stroke-width="1.5"/>
+    <line x1="10" y1="16" x2="16" y2="22" stroke="url(#symbolGradient)" stroke-width="1.5"/>
+    <line x1="22" y1="16" x2="16" y2="22" stroke="url(#symbolGradient)" stroke-width="1.5"/>
+    <line x1="10" y1="16" x2="22" y2="16" stroke="url(#symbolGradient)" stroke-width="1"/>
+  </g>
+</svg>
