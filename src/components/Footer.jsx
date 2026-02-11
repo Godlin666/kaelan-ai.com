@@ -21,12 +21,10 @@ const Footer = () => {
 
         <ul className="flex gap-5 flex-wrap">
           {socials.map((social) => (
-            <a
-              href={social.url}
+            <button
               key={social.id}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
+              onClick={() => alert("Coming Soon!")}
+              className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6 cursor-pointer"
             >
               <img
                 src={social.iconUrl}
@@ -34,7 +32,7 @@ const Footer = () => {
                 width={16}
                 height={16}
               />
-            </a>
+            </button>
           ))}
         </ul>
       </div>

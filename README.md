@@ -6,7 +6,7 @@ A modern, animated website for Kaelan AI - your global AI solutions partner.
 
 ## About
 
-Kaelan AI (嘉通科技) is focused on:
+Kaelan AI (加通科技) is focused on:
 - 🤖 Artificial Intelligence Solutions
 - 🌍 Global Applications Development
 - 💡 Smart Technology Innovation
